@@ -1,0 +1,6 @@
+name: bakta
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::bakta>=1.9,<1.10

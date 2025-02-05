@@ -1,0 +1,35 @@
+## Configuration file
+
+# Directories
+dir:
+  in: "data/input"
+  db: "bakta_db"
+  out:
+    preprocessing: "results/preprocessing"
+    assembly: "results/assembly"
+    polishing: "results/polishing"
+    annotation: "results/annotation"
+    versions: "results/versions"
+    bench: "results/benchmarks"
+    logs: "logs"
+  envs: "workflow/envs"
+  rules: "workflow/rules"
+  script: "workflow/scripts"
+
+# Resources
+resources:
+  big:
+    mem: 120000            
+    cpu: 32               
+    time: 20      
+  med:
+    mem: 56000            
+    cpu: 16                
+    time: 5      
+  sml:
+    mem: 14000
+    cpu: 4
+    time: 1    
+
+# Mamba configuration
+use-mamba: true  
