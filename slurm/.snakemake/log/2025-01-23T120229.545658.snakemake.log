@@ -1,7 +1,0 @@
-host: c211-24
-Building DAG of jobs...
-MissingInputException in rule organize_input in file /mnt/lustre/scratch/nlsas/home/ulc/co/agp/nucleoTide_slurm_2/Snakefile, line 51:
-Missing input files for rule organize_input:
-    output: data/input/paired, data/input/long
-    affected files:
-        data/input

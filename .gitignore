@@ -19,3 +19,6 @@ __pycache__/
 
 # Local History for Visual Studio Code
 .history/
+
+## Ignore Snakemake files
+**/.snakemake/
